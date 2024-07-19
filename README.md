@@ -1,11 +1,11 @@
 Le projet dépend d'un serveur apache obtenable dans l'application xampp
 ## Etape 1
 ### cloner le projet
-    git clone https://github.com/Anonymous1223334444/web_dev_3
+    git clone https://github.com/Anonymous1223334444/web_project_semi_final
 ## Etape 2
-### placer le dossier cloné 'web_dev_3' dans le répertoire 'htdocs' de xampp
+### placer le dossier cloné 'web_project_semi_final' dans le répertoire 'htdocs' de xampp
 ## Etape 3
-### taper les commandes suivantes dans le terminal en navigant au préalable vers le repertoire ~/xampp/htdocs/web_dev_3
+### taper les commandes suivantes dans le terminal en navigant au préalable vers le repertoire ~/xampp/htdocs/web_project_semi_final
     composer require stripe/stripe-php
     
     composer require paypal/rest-api-sdk-php:*
@@ -34,11 +34,11 @@ Le projet dépend d'un serveur apache obtenable dans l'application xampp
 ## Etape 8
 ### Sélectionner le database 'web_project' puis appuyer sur 'import' qui se trouve parmis les options de la bar du haut
 ### selectionner ensuite le input qui permet d'importer un fichier
-### naviguer dans le répertoire web_dev_3 --> public --> database --> tables.sql et appuyer sur OK pour selectionner ce fichier puis sur import pour créer les tables requis pour le projet
+### naviguer dans le répertoire web_project_semi_final --> public --> database --> tables.sql et appuyer sur OK pour selectionner ce fichier puis sur import pour créer les tables requis pour le projet
 
 ## Etape 9
 ### taper dans le navigateur
-    http://localhost/web_dev_3/pages/Home.php
+    http://localhost/web_project_semi_final/pages/Home.php
 
 ## Etape 10
-### ouvrir le repertoire web_dev_3 dans l'éditeur de code pour codage 😶️
+### ouvrir le repertoire web_project_semi_final dans l'éditeur de code pour codage 😶️
