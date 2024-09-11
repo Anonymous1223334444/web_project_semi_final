@@ -37,7 +37,8 @@ Le projet dépend d'un serveur apache obtenable dans l'application xampp
  - naviguer dans le répertoire web_dev_3 --> public --> database --> tables.sql et appuiyer sur OK pour selectionner ce fichier puis sur import pour créer les tables requis pour le projet
 
 # Preview
-<img src="https://drive.google.com/file/d/1yiVSB8Cz9GU-xfS77CZTINIo-aCKJiUA/view?usp=drive_link">
+
+![E-Learning](https://drive.google.com/uc?id=1yiVSB8Cz9GU-xfS77CZTINIo-aCKJiUA)
 
 ## Etape 9
 ### taper dans le navigateur
