@@ -5,7 +5,7 @@ Le projet dépend d'un serveur apache obtenable dans l'application xampp
 ## Etape 2
  - placer le dossier cloné 'web_dev_3' dans le répertoire 'htdocs' de xampp
  - Etape 3
- - taper les commandes suivantes dans le terminal en navigant au préalable vers le repertoire ~/xampp/htdocs/web_dev_3
+ ### taper les commandes suivantes dans le terminal en navigant au préalable vers le repertoire ~/xampp/htdocs/web_dev_3
     composer require stripe/stripe-php
     
     composer require paypal/rest-api-sdk-php:*
@@ -14,16 +14,16 @@ Le projet dépend d'un serveur apache obtenable dans l'application xampp
 ## Etape 4
  - lancer le serveur apache et le serveur mysql dans l'application xampp
 ## Etape 5
- - Ouvrir un navigateur et taper 
+ ### Ouvrir un navigateur et taper 
     http://http://localhost/phpmyadmin
  - Dans l'onglet de phpmyadmin, créer un nouveau compte utilisateur en lui assignant
  - nom utilisateur: project
  - mot de passe: 1223334444
 
 ## Etape 6
-- Modifier le fichier qui se trouve dans le chemin 'xampp/phpmyadmin/config.inc.php' et changer
+### Modifier le fichier qui se trouve dans le chemin 'xampp/phpmyadmin/config.inc.php' et changer
     $cfg['Servers'][$i]['auth_type'] = 'config';
-- en
+### en
     $cfg['Servers'][$i]['auth_type'] = 'cookie';
 - puis sauvegarder pour permettre la connection à phpmyadmin avec les infos du compte utilisateur créé
 
@@ -44,4 +44,4 @@ Le projet dépend d'un serveur apache obtenable dans l'application xampp
     http://http://localhost/web_dev_3/pages/Home.php
 
 ## Etape 10
-### ouvrir le repertoire web_dev_3 dans l'éditeur de code pour codage 😶️
+ - ouvrir le repertoire web_dev_3 dans l'éditeur de code pour codage 😶️
