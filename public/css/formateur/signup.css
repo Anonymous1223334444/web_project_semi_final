@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    color: #000;
+
+}
+
+.container{
+    margin: auto;
+    padding: 3rem;
+    color: #ffffff;
+    width: max-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.error {
+    background-color: #ffc9c5;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    margin: 2px auto;
+    color: red;
+    border-radius: 5px;
+}
+  
+
+.success {
+    background-color: #B7FFB7;
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+    margin: 2px auto;
+    color: green;
+    border-radius: 5px;
+}
+
+form input[type="file"]::before {
+    content: "Importer";
+    background-color: #000;
+    padding: 1rem 0;
+}
