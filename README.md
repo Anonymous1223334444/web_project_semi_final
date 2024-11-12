@@ -5,7 +5,7 @@
 Le projet dépend d'un serveur apache obtenable dans l'application xampp
 ## Etape 1
  - cloner le projet
-    git clone https://github.com/Ant-Man2022/web_dev_3
+    git clone https://github.com/Anonymous1223334444/web_project_semi_final 
 ## Etape 2
  - placer le dossier cloné 'web_dev_3' dans le répertoire 'htdocs' de xampp
  - Etape 3
